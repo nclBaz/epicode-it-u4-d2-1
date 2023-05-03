@@ -44,6 +44,11 @@ public class Student {
 			return false;
 		}
 	}
+
+	@Override
+	public String toString() {
+		return this.firstName + " " + this.lastName;
+	}
 }
 
 //public class Math{

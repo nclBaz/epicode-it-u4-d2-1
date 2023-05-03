@@ -34,6 +34,9 @@ public class Application {
 
 		System.out.println("Sono uguali? " + areTheSameObject);
 
+		System.out.println(aldo);
+		System.out.println(myFirstHuman);
+
 		// ********************** COMPARAZIONE TRA NUMERI ***************
 //		int x = 10;
 //		double y = 10.0;
@@ -46,22 +49,22 @@ public class Application {
 
 		// *********************** COMPARAZIONE TRA STRINGHE **************
 
-		String s1 = "ciao";
-		String s2 = "ciao";
-		s2 = "asdasda";
-		if (s1 == s2) {
-			System.out.println("Sono uguali");
-		} else {
-			System.out.println("Sono diversi");
-		}
-
-		String s3 = new String("ciao");
-
-		if (s1 == s3) {
-			System.out.println("Sono uguali");
-		} else {
-			System.out.println("Sono diversi");
-		}
+//		String s1 = "ciao";
+//		String s2 = "ciao";
+//		s2 = "asdasda";
+//		if (s1 == s2) {
+//			System.out.println("Sono uguali");
+//		} else {
+//			System.out.println("Sono diversi");
+//		}
+//
+//		String s3 = new String("ciao");
+//
+//		if (s1 == s3) {
+//			System.out.println("Sono uguali");
+//		} else {
+//			System.out.println("Sono diversi");
+//		}
 
 	}
 
